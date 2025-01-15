@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: system-ui, -apple-system;
+   
+}
+html {box-sizing: border-box;} 
+ 
+*, *:before, *:after {box-sizing: inherit;} 
+
+.head{
+  width: 40%;
+  height: 40vw;
+  float: right;
+  margin-top: 5px;
+  
+}
+.head img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border-bottom: 1px solid gray;
+    box-shadow: 10px 7px 20px black;
+}
+
+.intro{
+    width: 60%;
+    float: left;
+    padding-left: 15px;
+    padding-top: 20px;
+    height: 100vh;
+    overflow: scroll;
+    overflow-x: hidden;
+
+}
+.intro::-webkit-scrollbar{
+    width: 0;
+}
+.intro h1{
+    padding-bottom: 20px;
+}
+.intro p,.icon{
+    padding-left: 15px;
+}
+.intro p{
+    padding-block: 5px;
+    color: #283b37;
+    font-weight: 500;
+}
+.icon img{
+    height: 95px;
+    margin-top: -6px;
+    cursor: pointer;
+}
+
+.father{
+    display: flex;
+    margin-top: 30px;
+    width: 95%;
+}
+.Services img{
+    height: 98px;
+    width: 125px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 20px black;
+    margin-top: 10px;
+}
+.Services{
+    padding-top: 10px;
+    padding-right: 4px;
+    margin-inline: 17px;
+    text-align: center;
+    box-shadow: 0 0 15px rgb(37, 73, 214,.18);
+    
+}
+.Services h3{
+    margin-block: 8px;
+}
+.Services p{
+    font-size: 13px;
+    color: black;
+}
+@media (width < 800px){
+    .father{ 
+        flex-wrap: wrap;
+        gap: 1.8rem;
+    }
+}
+@media (width < 600px) {
+    .head{
+        width: 100%;
+        height: 300px;
+    }
+    .intro{
+        width: 100%;
+    }
+    
+    
+}
+
