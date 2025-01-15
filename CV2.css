@@ -1,0 +1,61 @@
+ .Projects{
+    margin-top: 22px;
+    margin-left: 4px;
+}
+.Projects img{
+    width: 28%;
+    margin: 5px;
+    border: 1px solid gray;
+    background-color: white;
+    padding: 2px;
+    cursor: pointer;
+
+}
+.input{
+    margin-top: 70px;
+}
+.input input{
+    padding: 10px;
+    width: 40%;
+    margin-inline:10px ;
+    margin-block: 13px;
+}
+.input textarea{
+    padding: 10px;
+    width: 90%;
+    margin-left: 10px;
+    margin-block: 13px;
+}
+.input textarea,input{
+    border: none;
+    background-color: rgb(216, 210, 189);
+    color: black;
+}
+.input .submit{
+    padding: 9px;
+    margin-left: 10px;
+    margin-block: 17px;
+    width: 125px;
+    border: none;
+    background-color: rgb(3, 112, 214);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.b{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b b{
+    margin-block: 20px;
+    margin-inline: 4px;
+    
+}
+.b img{
+    width: 25px;
+}
+
+   
+    
